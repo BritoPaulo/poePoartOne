@@ -165,7 +165,7 @@ class CybersecurityChatbot
         Console.WriteLine("  │             CYBERSECURITY TOPICS MENU           │");
         Console.WriteLine("  ├──────────────────────────────────────────────────┤");
         Console.ForegroundColor = infoColor;
-        Console.WriteLine("  │  • Passwords       - Secure password creation    │");
+        Console.WriteLine("  │  • Passwords       - Secure password creation    │"); 
         Console.WriteLine("  │  • Phishing        - Spotting scam messages      │");
         Console.WriteLine("  │  • Browsing       - Safe internet practices     │");
         Console.WriteLine("  │  • Social Media    - Protecting your profiles    │");
