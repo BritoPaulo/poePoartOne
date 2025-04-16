@@ -180,7 +180,7 @@ class CybersecurityChatbot
 
     static string GenerateResponse(string input, string userName)
     {
-        // Check user input for keywords and return relevant cybersecurity tips
+        // Check user input for keywords and return relevant cybersecurity tip
 
         if (input.Contains("how are you"))
             return "I'm functioning optimally and ready to discuss cybersecurity!";
@@ -188,7 +188,7 @@ class CybersecurityChatbot
         if (input.Contains("purpose") || input.Contains("what do you do"))
             return "I educate South Africans about digital threats and protection methods.";
 
-        if (input.Contains("password"))
+        if (input.Contains("password")) 
             return " Strong passwords should be:\n  - Minimum 12 characters\n  - Mix of upper/lower case, numbers, symbols\n  - Unique for each account\nConsider using a password manager like Bitwarden or LastPass.";
 
         if (input.Contains("phishing"))
